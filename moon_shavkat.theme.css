@@ -1,0 +1,253 @@
+/**
+ * @name midnight x shvkt
+ * @description A dark, rounded discord theme. Modified by shvkt
+ * @author refact0r x shvkt
+ * @version 1.7
+ * @website https://github.com/refact0r/midnight-discord
+ * @source https://github.com/refact0r/midnight-discord/blob/master/midnight.theme.css
+ * @authorId 508863359777505290
+ * @authorLink https://www.refact0r.dev
+*/
+
+/* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
+
+@import url('https://refact0r.github.io/midnight-discord/midnight.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000');
+
+.embedFull__14919 {
+    border-left: 4px solid var(--background-tertiary);
+    background: rgba(2, 2, 2, 0.096)
+}
+
+.container_debb33, .numberBadge__40d6f, .toolbar__62fb5 {
+    --status-danger: hsl(0, 78%, 62%);
+}
+
+.vc-membercount-widget {
+    display: flex;
+    align-content: center;
+    --color-online: hsl(145, 52%, 47%);
+    --color-total: var(--primary-400);
+}
+
+.input__3e05b {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    border-radius: 14px;
+    top: 0;
+    left: 0;
+    margin: 0;
+    color: hsl(145, 52%, 47%);
+}
+
+.statusOnline_b64171 {
+    background-color: hsl(145, 52%, 47%);
+}
+
+.message_ccca67.mentioned_fa6fd2:before, .botTagOP_fd6360 {
+    background: rgb(240, 177, 50);
+}
+
+.markup_a7e664 {
+    font-size: 0.95rem;
+    line-height: 1.375rem;
+    white-space: pre-wrap;
+    white-space: break-spaces;
+    word-wrap: break-word;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    user-select: text;
+    color: var(--text-normal);
+}
+
+.px__7f04f.botTag__4211a {
+    height: 15px;
+    padding: 0 4px;
+    margin-top: 1px;
+    border-radius: 3px;
+	background-color: rgb(76, 102, 199);;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+.wrapper__8436d:hover .childWrapper_a6ce15, .wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
+    color: var(--white-500);
+    background-color: hsl(226, 66%, 55%);
+}
+
+.activeButtonChild__58171 {
+    color: rgb(113, 136, 217);
+}
+
+.allow_bbc621.selected__5faae {
+    background-color: hsl(145, 52%, 47%);
+    color: var(--white-500);
+}
+
+.passthrough__91f95.selected__5faae {
+    background-color: hsla(0, 0%, 27%, 0.425);
+    color: var(--white-500);
+}
+
+.lookFilled__950dd:hover.colorBrand__27d57 {
+    color: var(--white-500);
+    background-color: hsl(226, 55%, 38%);
+}
+
+
+
+html, [data-popout-root] {
+    --brand-experiment-100: var(--brand-100);
+    --brand-experiment-130: var(--brand-130);
+    --brand-experiment-160: var(--brand-160);
+    --brand-experiment-200: var(--brand-200);
+    --brand-experiment-230: var(--brand-230);
+    --brand-experiment-260: var(--brand-260);
+    --brand-experiment-300: var(--brand-300);
+    --brand-experiment-330: var(--brand-330);
+    --brand-experiment-360: var(--brand-360);
+    --brand-experiment-400: var(--brand-400);
+    --brand-experiment-430: rgb(70, 100, 206);
+    --brand-experiment-460: var(--brand-460);
+    --brand-experiment: rgb(70, 100, 206);
+    --brand-experiment-500: rgb(70, 100, 206);
+    --brand-experiment-530: var(--brand-530);
+    --brand-experiment-560: var(--brand-560);
+    --brand-experiment-600: var(--brand-600);
+    --brand-experiment-630: var(--brand-630);
+    --brand-experiment-660: var(--brand-660);
+    --brand-experiment-700: var(--brand-700);
+    --brand-experiment-730: var(--brand-730);
+    --brand-experiment-760: var(--brand-760);
+    --brand-experiment-800: var(--brand-800);
+    --brand-experiment-830: var(--brand-830);
+    --brand-experiment-860: var(--brand-860);
+    --brand-experiment-900: var(--brand-900);
+    --brand-experiment-05a: hsl(var(--brand-500-hsl) / 0.05);
+    --brand-experiment-10a: hsl(var(--brand-500-hsl) / 0.1);
+    --brand-experiment-15a: hsl(var(--brand-500-hsl) / 0.15);
+    --brand-experiment-20a: hsl(var(--brand-500-hsl) / 0.2);
+    --brand-experiment-25a: hsl(var(--brand-500-hsl) / 0.25);
+    --brand-experiment-30a: hsl(var(--brand-500-hsl) / 0.3);
+    --brand-experiment-35a: hsl(var(--brand-500-hsl) / 0.35);
+    --brand-experiment-40a: hsl(var(--brand-500-hsl) / 0.4);
+    --brand-experiment-45a: hsl(var(--brand-500-hsl) / 0.45);
+    --brand-experiment-50a: hsl(var(--brand-500-hsl) / 0.5);
+    --brand-experiment-55a: hsl(var(--brand-500-hsl) / 0.55);
+    --brand-experiment-60a: hsl(var(--brand-500-hsl) / 0.6);
+    --brand-experiment-65a: hsl(var(--brand-500-hsl) / 0.65);
+    --brand-experiment-70a: hsl(var(--brand-500-hsl) / 0.7);
+    --brand-experiment-75a: hsl(var(--brand-500-hsl) / 0.75);
+    --brand-experiment-80a: hsl(var(--brand-500-hsl) / 0.8);
+    --brand-experiment-85a: hsl(var(--brand-500-hsl) / 0.85);
+    --brand-experiment-90a: hsl(var(--brand-500-hsl) / 0.9);
+    --brand-experiment-95a: hsl(var(--brand-500-hsl) / 0.95);
+}
+
+.mediaBarInteraction_e21234:hover .mediaBarGrabber__1d527 {
+    transform: scale(1);
+    background-color: rgb(113, 136, 217);
+}
+
+.circleIconButton__05cf2 {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+    transition: color.15s ease-out,background-color.15s ease-out;
+    color: rgb(51, 83, 197);
+    background-color: var(--background-primary);
+}
+
+.circleIconButton__05cf2.selected_aded59 {
+    color: var(--white-500);
+    background-color: rgb(51, 83, 197);
+}
+
+/* customize things here */
+:root {
+	
+	/* font, change to 'gg sans' for default discord font*/
+	--font: "figtree";
+
+	/* top left corner text */
+	--corner-text: 'Shavkat Discord 🚂';
+
+	/* color of status indicators and window controls */
+	--online-indicator: hsl(145, 52%, 47%); /* change to #23a55a for default green */
+	--dnd-indicator: hsl(0, 78%, 56%); /* change to #f13f43 for default red */
+	--idle-indicator: hsl(50, 73%, 54%); /* change to #f0b232 for default yellow */
+	--streaming-indicator: hsl(260, 60%, 60%); /* change to #593695 for default purple */
+
+	/* accent colors */
+	--accent-1: rgb(113, 136, 217); /* links */
+	--accent-2: rgb(240, 177, 50); /* general unread/mention elements */
+	--accent-3: rgb(190, 50, 50); /* accent buttons */
+	--accent-4: hsl(145, 45%, 45%); /* accent buttons when hovered */
+	--accent-5: hsl(145, 62%, 24%); /* accent buttons when clicked */
+	--mention: rgba(50, 78, 240, 0.096); /* mentions & mention messages */
+	--mention-hover: rgba(240, 180, 50, 0.158); /* mentions & mention messages when hovered */
+
+	/* text colors */
+	--text-0: rgb(219, 222, 225); /* text on colored elements */
+	--text-1: hsl(0, 0%, 87%); /* other normally white text */
+	--text-2: rgb(219, 222, 225); /* headings and important text */
+	--text-3: rgb(219, 222, 225); /* normal text */
+	--text-4: rgb(128, 132, 142); /* icon buttons and channels */
+	--text-5: hsla(0, 0%, 75%, 0.411); /* muted channels/chats and timestamps */
+
+	/* background and dark colors */
+	--bg-1: hsla(0, 0%, 1%, 0.158); /* dark buttons when clicked */
+	--bg-2: hsla(0, 0%, 0%, 0.164); /* dark buttons */
+	--bg-3: rgb(17, 18, 22); /* spacing, secondary elements */
+	--bg-4: rgb(24, 26, 31); /* main background color */
+	--hover: hsla(0, 0%, 1%, 0.233); /* channels and buttons when hovered */
+	--active: hsla(0, 0%, 4%, 0.349); /* channels and buttons when clicked or selected */
+	--message-hover: hsla(0, 0%, 0%, 0.089); /* messages when hovered */
+
+	/* amount of spacing and padding */
+	--spacing: 12px;
+
+	/* animations */
+	/* ALL ANIMATIONS CAN BE DISABLED WITH REDUCED MOTION IN DISCORD SETTINGS */
+	--list-item-transition: 0.2s ease; /* channels/members/settings hover transition */
+	--unread-bar-transition: 0.2s ease; /* unread bar moving into view transition */
+	--moon-spin-transition: 0.4s ease; /* moon icon spin */
+	--icon-spin-transition: 1s ease; /* round icon button spin (settings, emoji, etc.) */
+
+	/* corner roundness (border-radius) */
+	--roundness-xl: 8px; /* roundness of big panel outer corners */
+	--roundness-l: 9px; /* popout panels */
+	--roundness-m: 8px; /* smaller panels, images, embeds */
+	--roundness-s: 8px; /* members, settings inputs */
+	--roundness-xs: 4px; /* channels, buttons */
+	--roundness-xxs: 4px; /* searchbar, small elements */
+
+    --__lottieIconColor: hsl(0, 0%, 75%);
+
+	/* direct messages moon icon */
+	/* change to block to show, none to hide */
+	--discord-icon: block; /* discord icon */
+	--moon-icon: none; /* moon icon */
+	--moon-icon-url: url('https://svgshare.com/i/15H3.svg'); /* custom icon url */
+	--moon-icon-size: auto;
+
+	/* filter uncolorable elements to fit theme */
+	/* (just set to none, they're too much work to configure) */
+	--login-bg-filter: saturate(0.3) hue-rotate(-15deg) brightness(0.4); /* login background artwork */
+	--green-to-accent-3-filter: hue-rotate(56deg) saturate(1.43); /* add friend page explore icon */
+	--blurple-to-accent-3-filter: hue-rotate(304deg) saturate(0.84) brightness(1.2); /* add friend page school icon */
+}
