@@ -11,6 +11,16 @@
     --status-danger: hsl(0, 78%, 62%);
 }
 
+.ping__838d2 {
+    width: 16px;
+    height: 16px;
+    display: block;
+    margin-right: 4px;
+    margin-left: 0;
+    flex: 0 0 auto;
+    color: hsl(145, 52%, 47%);
+}
+
 .pillIconOnline__7e974 {
     background-color: hsl(145, 52%, 47%);
 }
