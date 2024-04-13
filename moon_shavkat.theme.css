@@ -1,16 +1,3 @@
-/**
- * @name midnight x shvkt
- * @description A dark, rounded discord theme. Modified by shvkt
- * @author refact0r x shvkt
- * @version 1.7
- * @website https://github.com/refact0r/midnight-discord
- * @source https://github.com/refact0r/midnight-discord/blob/master/midnight.theme.css
- * @authorId 508863359777505290
- * @authorLink https://www.refact0r.dev
-*/
-
-/* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
-
 @import url('https://refact0r.github.io/midnight-discord/midnight.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000');
